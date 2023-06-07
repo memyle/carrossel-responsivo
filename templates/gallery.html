@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>Carrossel de Imagens Responsivas</title>
+        <link rel="stylesheet" type ="text/css" href="../static/css/slide.css">
+        <link rel="stylesheet" type ="text/css" href="../static/css/style.css">
+        <script src="../static/js/slide.js" defer></script>
+        <nav>
+            <a href="/profile">Perfil</a>
+            <a href="/upload">Upload</a>
+            <a href="/gallery">Galeria</a>  
+        </nav>
+    <meta charset="UTF-8">
+    <title>Galeria de fotos</title>
+</head>
+<body>
+ <h1 style="color:black">Selecione três imagens</h1>
+ {% for imagelist in imagelist %}
+ <img src = "{{ url_for('static', filename=imagelist)}}">
+ {% endfor %}
+</body>
+</html>

@@ -1,0 +1,51 @@
+h1 {
+  margin-top: 5%;
+    color: rgb(255, 255, 255); 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-family: "Cantarell", sans-serif;
+  }
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  p {
+    color: rgb(0, 0, 0); 
+    font-size: 18px; 
+    line-height: 1.5; 
+    font-family: "Cantarell", sans-serif;
+    text-align: center;
+  }
+  
+  body{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav .logo{
+    color: white;
+    float: left;
+    display:block;
+    padding: 14px 16px;
+  }
+
+  nav a{
+    color: white;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+  }
+  nav{
+    background-color: rgb(52, 52, 52);
+    overflow: hidden;
+    /* position: absolute; */
+    width: 100%;
+    display:block;
+  }
+  nav a:hover{
+  transition: 0.5s;
+  background-color:white;
+  color: rgb(52,52,52)
+} 
